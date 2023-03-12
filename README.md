@@ -2,9 +2,9 @@
 
 Simple Peephole Camera to use inside the house since it is stupid to keep an expensive device hanging outside of your house so everyone around will know you have interesting stuff to protect.
 
-![Front view](https://github.com/leoheck/peephole-cam/tree/main/misc/front.png)
+![Front view](misc/front.png)
 
-![Side view](https://github.com/leoheck/peephole-cam/tree/main/misc/side.png)
+![Side view](misc/side.png)
 
 # Bill of Materials
 
