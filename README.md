@@ -2,11 +2,25 @@
 
 Simple Peephole Camera to use inside the house since it is stupid to keep an expensive device hanging outside of your house so everyone around will know you have interesting stuff to protect.
 
-![Front view](misc/front.png)
+<img src="misc/front-opaque.png" width="500">
+<img src="misc/front.png" width="500">
 
-![Side view](misc/side.png)
+<img src="misc/side.png" width="500">
+<img src="misc/side-opaque.png" width="500">
+
+<img src="misc/isometric.png" width="500">
+
+# Usage
+
+The Peephole and the Door-Hook are fixed on the Door using the existing hole of the Peephole. Then the device is mounted on top of it. It can be easily detached to access the peephole as is shown in the following picture if needed.
+
+<img src="misc/separation.png" width="500">
 
 # Bill of Materials
+
+The image shows the main parts of the device.
+
+<img src="misc/teardown.png" width="500">
 
 Of-the-Shelf Parts
 
