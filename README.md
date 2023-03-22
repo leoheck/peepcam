@@ -23,7 +23,7 @@ Isometric view
 	<img src="misc/isometric.png" width="500">
 </p>
 
-# Usage
+# Device usage
 
 The Peephole and the Door-Hook are fixed on the Door using the existing hole of the Peephole. Then the device is mounted on top of it. It can be easily detached to access the peephole as is shown in the following picture if needed.
 
@@ -69,3 +69,7 @@ Housing (3D-printables)
 | Base           | 1   |
 | Camera-Mount   | 1   |
 | Lid            | 1   |
+
+# Software
+
+This device uses [Motion 4.4.0](https://github.com/Motion-Project/motion) to detect motion and then it sends data (picture and video video) to a [Telegram bot](https://www.freecodecamp.org/news/how-to-create-a-telegram-bot-using-python) that sends push notifications to the smartphone.
