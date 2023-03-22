@@ -72,4 +72,4 @@ Housing (3D-printables)
 
 # Software
 
-This device uses [Motion 4.4.0](https://github.com/Motion-Project/motion) to detect motion and then it sends data (picture and video video) to a [Telegram bot](https://www.freecodecamp.org/news/how-to-create-a-telegram-bot-using-python) that sends push notifications to the smartphone.
+Here, this device uses [Motion 4.4.0](https://github.com/Motion-Project/motion) to detect motion and then it sends data (picture and video video) to a [Telegram bot](https://www.freecodecamp.org/news/how-to-create-a-telegram-bot-using-python) that sends push notifications to the smartphone.
