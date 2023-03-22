@@ -75,3 +75,14 @@ Housing (3D-printables)
 I am using `Raspbian GNU/Linux 11 (bullseye)` as the Operating System.
 
 Also, to detect motion, I am currently using [Motion 4.4.0](https://github.com/Motion-Project/motion) whichsends data (picture and video) to a [Telegram Bot](https://www.freecodecamp.org/news/how-to-create-a-telegram-bot-using-python) that sends push notifications to the smartphone.
+
+The script to send data to the Telegram Bot using the `code/cfg/telegram/credentials.json` file. A sample of the file is shown bellow.
+
+```json
+{
+	"apiToken": "[API_TOKEN]",
+	"chatID": "[CHAT_ID]",
+	"peepcam_local_url": "[LOCAL_HOSTNAME_OR_IP_AND_PORT]",
+	"peepcam_external_url": "[EXTERNAL_DNS_AND_PORT]"
+}
+```
