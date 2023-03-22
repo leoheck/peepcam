@@ -94,5 +94,5 @@ The script to send data to the Telegram Bot using the `code/cfg/telegram/credent
 Example of notification
 
 <p align="center">
-	<img src="misc/notification.jpeg" width="400">
+	<img src="misc/notification.png" width="400">
 </p>
