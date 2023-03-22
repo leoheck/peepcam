@@ -1,6 +1,6 @@
-# Peephole Cam
+# Peepcam
 
-Simple Peephole Camera to use inside the house since it is stupid to keep an expensive device hanging outside of your house so everyone around will know you have interesting stuff to protect.
+Peepcam is a simple Peephole Camera device to use inside the house since it is stupid to keep an expensive device hanging outside of your house so everyone around will know you have interesting stuff to protect.
 
 Front view (from inside the home)
 
