@@ -1,0 +1,11 @@
+# [PEEPHOLE] Make space removing old videos/pictures
+0 2 * * * /home/lheck/peepcam/bin/create-space.sh >> /var/log/peepcam/create-space.log
+
+# [PEEPHOLE] Ping evnetually to keep wifi connection on, disabling power save mode and this seems to be enough
+*/5 * * * * ping -c2 www.google.com
+
+# [PEEPHOLE] Restart network manager if wifi is not connected
+#*/5 * * * * /home/lheck/peepcam/bin/no-wifi-restart-wifi.sh >> no-wifi-restart-wifi.log
+
+# [PEEPHOLE] Reboot the board if wifi is not connected
+# */5 * * * * /home/lheck/peepcam/bin/no-wifi-reboot.sh >> no-wifi-reboot.log
