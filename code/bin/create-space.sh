@@ -34,9 +34,7 @@ backup_data()
 datetime=$(date +"%Y.%m.%d %Hh%M'%S")
 
 echo -e "\n================================="
-
-echo "[${datetime}]"
-
+echo "${datetime}"
 disk_usage=$(get_current_percentual_disk_usage)
 
 while true;
@@ -55,9 +53,10 @@ do
 
 	else
 		echo "Current disk usage (${disk_usage}%) is under the threshold (${disk_usage_threshold}%)"
+		break
 	fi
 
 	sleep 1
 done
 
-echo "Cleanup routine done!"
+# echo "Cleanup routine done!"
