@@ -52,7 +52,7 @@ do
 		rm -rf ${oldest_recordings_day}
 
 	else
-		echo "Current disk usage (${disk_usage}%) is under the threshold (${disk_usage_threshold}%)"
+		echo "Current disk usage under the threshold (${disk_usage_threshold}%)"
 		break
 	fi
 
