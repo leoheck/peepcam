@@ -11,7 +11,7 @@ install: \
 	monitor_motion \
 
 # Add command removing old command preventing duplicates
-# Remove each line with [PEEPHOLE] and 1 lines after (the cmd)
+# Remove each line with [PEEPCAM] and 1 lines after (the cmd)
 # After it cleans the blank lines (where >=2 appear)
 
 .PHONY: update_crontab
@@ -19,7 +19,7 @@ install: \
 update_crontab:
 	@ ( \
 		sudo crontab -l \
-		| sed "/[PEEPHOLE]/, +1 d" \
+		| sed "/[PEEPCAM]/, +1 d" \
 		| awk '!NF {if (++n < 2) print; next}; {n=0; print}'; \
 		cat cfg/cron/crontab \
 	) | sudo crontab -
@@ -67,12 +67,12 @@ sync: \
 # Update Makefile
 sync_makefile:
 	@ echo "Remote sync Makefile..."
-	@ rsync -avh $(user)@$(host):'/home/$(user)/Dropbox/peephole-raspi/code/Makefile' "/home/$(user)/peepcam/"
+	@ rsync -avh $(user)@$(host):'/home/$(user)/Dropbox/peepcam/code/Makefile' "/home/$(user)/peepcam/"
 
 # Update peepcam files
 sync_peepcam:
 	@ echo "Remote sync..."
-	rsync -avh $(user)@$(host):'/home/$(user)/Dropbox/peephole-raspi/code/' "/home/$(user)/peepcam/" --delete
+	rsync -avh $(user)@$(host):'/home/$(user)/Dropbox/peepcam/code/' "/home/$(user)/peepcam/" --delete
 
 test_telegram:
 	@ ./bin/send-to-telegram.py -n "_Testing Telegram routines..._"
